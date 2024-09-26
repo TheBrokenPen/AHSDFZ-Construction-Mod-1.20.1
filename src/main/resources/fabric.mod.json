@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "ahsdfz-construction-mod",
+	"version": "${version}",
+	"name": "AHSDFZ Construction Mod",
+	"description": "An external mod for AHSDFZ Building Project",
+	"authors": [
+		"Admin"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/ahsdfz-construction-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"name.ahsdfz.AHSDFZConstructionMod"
+		],
+		"client": [
+			"name.ahsdfz.AHSDFZConstructionModClient"
+		],
+		"fabric-datagen": [
+			"name.ahsdfz.AHSDFZConstructionModDataGenerator"
+		]
+	},
+	"mixins": [
+		"ahsdfz-construction-mod.mixins.json",
+		{
+			"config": "ahsdfz-construction-mod.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
