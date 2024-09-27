@@ -1,5 +1,6 @@
 package name.ahsdfz.registry;
 
+//FunctionImports
 import name.ahsdfz.AHSDFZConstructionMod;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -11,12 +12,14 @@ import net.minecraft.registry.RegistryKey;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-//  public static final Item TestItem = registerItem(name;"test", new item(new FabricItemSettings()))
+
+    //Main Item Register
     public static final Item TestItem = registerItem("test1", new Item(new FabricItemSettings()));
     public static final Item TestItem2 = registerItem("test2", new Item(new FabricItemSettings()));
     public static final Item TestItem3 = registerItem("test3", new Item(new FabricItemSettings()));
     public static final Item TestItem4 = registerItem("test4",new Item(new FabricItemSettings()));
 
+    //ItemRegistryGadget
     @SafeVarargs
     public static Item registerItem(String name, Item item, RegistryKey<ItemGroup>...itemGroups) {
         Item registeredItem = Registry.register(Registries.ITEM, new Identifier(AHSDFZConstructionMod.MOD_ID, name), item);
@@ -30,3 +33,4 @@ public class ModItems {
     }
 }
 
+//WrongExample: public static final Item TestItem = registerItem(name;"test", new item(new FabricItemSettings()));
