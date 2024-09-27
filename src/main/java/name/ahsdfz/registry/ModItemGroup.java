@@ -9,10 +9,12 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroup {
 
-    public static ItemGroup TestItem1 = FabricItemGroup.builder(new Identifier(AHSDFZConstructionMod.MOD_ID, "test_itemgroup"))
+    public static ItemGroup TestGroup = FabricItemGroup.builder()
             .displayName(Text.translatable("itemgroup.ahsdfz-construction-mod.TestItem"))
             .icon(() -> new ItemStack(ModItems.TestItem1))
             .build();
+
+    //new Identifier(AHSDFZConstructionMod.MOD_ID, "test_itemgroup"
 
     public static void registerModItemGroup() {
         AHSDFZConstructionMod.LOGGER.debug("Registering mod item group for" + AHSDFZConstructionMod.MOD_ID);
