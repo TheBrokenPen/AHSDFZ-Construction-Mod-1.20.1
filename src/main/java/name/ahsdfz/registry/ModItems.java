@@ -14,10 +14,15 @@ import net.minecraft.util.Identifier;
 public class ModItems {
 
     //Main Item Register
-    public static final Item TestItem = registerItem("test1", new Item(new FabricItemSettings()));
+    public static final Item TestItem1 = registerItem("test1", new Item(new FabricItemSettings()));
     public static final Item TestItem2 = registerItem("test2", new Item(new FabricItemSettings()));
     public static final Item TestItem3 = registerItem("test3", new Item(new FabricItemSettings()));
     public static final Item TestItem4 = registerItem("test4",new Item(new FabricItemSettings()));
+    public static final Item TestItem5 = registerItem("test5",new Item(new FabricItemSettings()));
+    public static final Item TestItem6 = registerItem("test6",new Item(new FabricItemSettings()));
+    public static final Item TestItem7 = registerItem("test7",new Item(new FabricItemSettings()));
+    public static final Item TestItem8 = registerItem("test8",new Item(new FabricItemSettings()));
+    public static final Item TestItem9 = registerItem("test9",new Item(new FabricItemSettings()));
 
     //ItemRegistryGadget
     @SafeVarargs
