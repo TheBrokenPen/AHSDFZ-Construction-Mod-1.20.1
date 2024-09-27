@@ -11,11 +11,11 @@ import net.minecraft.registry.RegistryKey;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item TestItem = registerItem(name:"TestItemString",
-        new Item(new FabricItemSettings()));
-
-
-
+//  public static final Item TestItem = registerItem(name;"test", new item(new FabricItemSettings()))
+    public static final Item TestItem = registerItem("test1", new Item(new FabricItemSettings()));
+    public static final Item TestItem2 = registerItem("test2", new Item(new FabricItemSettings()));
+    public static final Item TestItem3 = registerItem("test3", new Item(new FabricItemSettings()));
+    public static final Item TestItem4 = registerItem("test4",new Item(new FabricItemSettings()));
     public static Item registerItem(String name, Item item, RegistryKey<ItemGroup>...itemGroups) {
         Item registeredItem = Registry.register(Registries.ITEM, new Identifier(AHSDFZConstructionMod.MOD_ID, name), item);
         for (RegistryKey<ItemGroup> itemGroup: itemGroups) {
