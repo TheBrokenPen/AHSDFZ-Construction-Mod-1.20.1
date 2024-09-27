@@ -16,6 +16,8 @@ public class ModItems {
     public static final Item TestItem2 = registerItem("test2", new Item(new FabricItemSettings()));
     public static final Item TestItem3 = registerItem("test3", new Item(new FabricItemSettings()));
     public static final Item TestItem4 = registerItem("test4",new Item(new FabricItemSettings()));
+
+    @SafeVarargs
     public static Item registerItem(String name, Item item, RegistryKey<ItemGroup>...itemGroups) {
         Item registeredItem = Registry.register(Registries.ITEM, new Identifier(AHSDFZConstructionMod.MOD_ID, name), item);
         for (RegistryKey<ItemGroup> itemGroup: itemGroups) {
