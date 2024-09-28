@@ -1,15 +1,7 @@
 {
+  "itemgroup.ahsdfz-construction-mod.BuildingBlocks": "TestItemGroup",
+  "itemgroup.ahsdfz-construction-mod.Items": "TestItemGroup",
 
-  "itemgroup.ahsdfz-construction-mod.BuildingBlocks": "测试物品栏",
-
-  "item.ahsdfz-construction-mod.TestItem1": "测试物品1",
-  "item.ahsdfz-construction-mod.TestItem2": "测试物品2",
-  "item.ahsdfz-construction-mod.TestItem3": "测试物品3",
-  "item.ahsdfz-construction-mod.TestItem4": "测试物品4",
-  "item.ahsdfz-construction-mod.TestItem5": "测试物品5",
-  "item.ahsdfz-construction-mod.TestItem6": "测试物品6",
-  "item.ahsdfz-construction-mod.TestItem7": "测试物品7",
-  "item.ahsdfz-construction-mod.TestItem8": "测试物品8",
-  "item.ahsdfz-construction-mod.TestItem9": "测试物品9"
-
+  "item.ahsdfz-construction-mod.testificant_item": "测试用测试物品",
+  "item.ahsdfz-construction-mod.normal_item": "普通的测试物品"
 }

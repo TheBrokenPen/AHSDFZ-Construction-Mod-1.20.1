@@ -1,13 +1,7 @@
 {
   "itemgroup.ahsdfz-construction-mod.BuildingBlocks": "TestItemGroup",
   "itemgroup.ahsdfz-construction-mod.Items": "TestItemGroup",
-  "item.ahsdfz-construction-mod.TestItem1": "TestString1",
-  "item.ahsdfz-construction-mod.TestItem2": "TestString2",
-  "item.ahsdfz-construction-mod.TestItem3": "TestString3",
-  "item.ahsdfz-construction-mod.TestItem4": "TestString4",
-  "item.ahsdfz-construction-mod.TestItem5": "TestString5",
-  "item.ahsdfz-construction-mod.TestItem6": "TestString6",
-  "item.ahsdfz-construction-mod.TestItem7": "TestString7",
-  "item.ahsdfz-construction-mod.TestItem8": "TestString8",
-  "item.ahsdfz-construction-mod.TestItem9": "TestString9"
+
+  "item.ahsdfz-construction-mod.testificant_item": "Testificant Item",
+  "item.ahsdfz-construction-mod.normal_item": "Normal Item"
 }
