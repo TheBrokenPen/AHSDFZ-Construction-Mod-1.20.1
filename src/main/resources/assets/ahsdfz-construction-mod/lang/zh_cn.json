@@ -1,7 +1,7 @@
 {
-  "itemgroup.ahsdfz-construction-mod.BuildingBlocks": "TestItemGroup",
-  "itemgroup.ahsdfz-construction-mod.Items": "TestItemGroup",
+  "itemgroup.ahsdfz-construction-mod.BuildingBlocks": "建筑方块",
+  "itemgroup.ahsdfz-construction-mod.UsefulMiscs": "实用小物件",
 
   "item.ahsdfz-construction-mod.testificant_item": "测试用测试物品",
-  "item.ahsdfz-construction-mod.normal_item": "普通的测试物品"
+  "item.ahsdfz-construction-mod.normal_item": "普通的测试物品",
 }

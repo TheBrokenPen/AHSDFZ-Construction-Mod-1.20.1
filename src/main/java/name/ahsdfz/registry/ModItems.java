@@ -2,7 +2,6 @@ package name.ahsdfz.registry;
 
 import name.ahsdfz.AHSDFZConstructionMod;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
@@ -17,7 +16,7 @@ public class ModItems {
     public static final Item TestificantItem = registerItems("testificant_item", new Item(new FabricItemSettings()));
     public static final Item NormalItem = registerItems("normal_item", new Item(new FabricItemSettings()));
 
-    //ItemGroups
+    //AddToNormalItemGroups
     public static void addTestificantItem(FabricItemGroupEntries fabricItemGroupEntries) {
         fabricItemGroupEntries.add(TestificantItem);
     }
@@ -35,4 +34,5 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.OPERATOR).register(ModItems::addTestificantItem);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(ModItems::addNormalItem);
     }
+
 }

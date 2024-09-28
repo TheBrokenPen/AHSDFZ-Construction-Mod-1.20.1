@@ -21,7 +21,7 @@ public class AHSDFZConstructionMod implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("Hello Fabric world! Hello The High School Affiliated to Anhui Normal University!");
 		ModItems.registerModItems();
 		ModItemGroup.registerModItemGroup();
 	}

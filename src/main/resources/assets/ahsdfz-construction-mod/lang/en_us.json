@@ -1,6 +1,6 @@
 {
-  "itemgroup.ahsdfz-construction-mod.BuildingBlocks": "TestItemGroup",
-  "itemgroup.ahsdfz-construction-mod.Items": "TestItemGroup",
+  "itemgroup.ahsdfz-construction-mod.BuildingBlocks": "Building Blocks",
+  "itemgroup.ahsdfz-construction-mod.UsefulMiscs": "Useful Miscs",
 
   "item.ahsdfz-construction-mod.testificant_item": "Testificant Item",
   "item.ahsdfz-construction-mod.normal_item": "Normal Item"
