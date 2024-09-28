@@ -1,5 +1,6 @@
 package name.ahsdfz;
 
+import name.ahsdfz.registry.ModItemGroup;
 import name.ahsdfz.registry.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -22,5 +23,6 @@ public class AHSDFZConstructionMod implements ModInitializer {
 
 		LOGGER.info("Hello Fabric world!");
 		ModItems.registerModItems();
+		ModItemGroup.registerModItemGroup();
 	}
 }

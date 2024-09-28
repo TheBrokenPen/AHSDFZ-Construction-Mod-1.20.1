@@ -1,5 +1,7 @@
 {
-  "itemgroup.ahsdfz-construction-mod.TestItem": "测试物品栏",
+
+  "itemgroup.ahsdfz-construction-mod.BuildingBlocks": "测试物品栏",
+
   "item.ahsdfz-construction-mod.TestItem1": "测试物品1",
   "item.ahsdfz-construction-mod.TestItem2": "测试物品2",
   "item.ahsdfz-construction-mod.TestItem3": "测试物品3",
@@ -9,4 +11,5 @@
   "item.ahsdfz-construction-mod.TestItem7": "测试物品7",
   "item.ahsdfz-construction-mod.TestItem8": "测试物品8",
   "item.ahsdfz-construction-mod.TestItem9": "测试物品9"
+
 }

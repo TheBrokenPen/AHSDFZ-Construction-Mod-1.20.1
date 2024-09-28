@@ -1,5 +1,6 @@
 {
-  "itemgroup.ahsdfz-construction-mod.TestItem": "TestItemGroup",
+  "itemgroup.ahsdfz-construction-mod.BuildingBlocks": "TestItemGroup",
+  "itemgroup.ahsdfz-construction-mod.Items": "TestItemGroup",
   "item.ahsdfz-construction-mod.TestItem1": "TestString1",
   "item.ahsdfz-construction-mod.TestItem2": "TestString2",
   "item.ahsdfz-construction-mod.TestItem3": "TestString3",
