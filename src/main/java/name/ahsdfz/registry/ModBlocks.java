@@ -14,10 +14,16 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
 
     //Registered Blocks
-    public static final Block TestificantBlock = registerBlock("testificant_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.BRICKS)));
-    public static final Block NormalBlock = registerBlock("normal_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
+    public static final Block TestificantBlock = registerBlock(
+            "testificant_block",
+            new Block(
+                    FabricBlockSettings.copyOf(Blocks.BRICKS))
+    );
+    public static final Block NormalBlock = registerBlock(
+            "normal_block",
+            new Block(
+                    FabricBlockSettings.copyOf(Blocks.STONE))
+    );
 
     //Register Blocks
     public static Block registerBlock(String name, Block block) {
