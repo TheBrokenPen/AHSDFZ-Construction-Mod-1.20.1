@@ -14,8 +14,19 @@ public class ModItemGroup {
 
     //BUILDING BLOCKS ITEMGROUP
     public static final ItemGroup BUILDING_BLOCKS = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(AHSDFZConstructionMod.MOD_ID, "ahsdfz_blocks_itemgroup"),
+            new Identifier(AHSDFZConstructionMod.MOD_ID, "ahsdfz_building_blocks_itemgroup"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.ahsdfz-construction-mod.BuildingBlocks"))
+                    .icon(() -> new ItemStack(ModItems.TestificantItem)).entries(((displayContext, entries) -> {
+                        entries.add(ModItems.TestificantItem);
+                        entries.add(ModItems.NormalItem);
+                        entries.add(ModBlocks.TestificantBlock);
+                        entries.add(ModBlocks.NormalBlock);
+                    })).build());
+
+    //FUNCTIONAL BLOCKS ITEMGROUP
+    public static final ItemGroup FUNCTIONAL_BLOCKS = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(AHSDFZConstructionMod.MOD_ID, "ahsdfz_functional_blocks_itemgroup"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.ahsdfz-construction-mod.FunctionalBlocks"))
                     .icon(() -> new ItemStack(ModItems.TestificantItem)).entries(((displayContext, entries) -> {
                         entries.add(ModItems.TestificantItem);
                         entries.add(ModItems.NormalItem);

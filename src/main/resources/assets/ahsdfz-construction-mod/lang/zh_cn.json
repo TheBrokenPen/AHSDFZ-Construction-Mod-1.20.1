@@ -1,10 +1,9 @@
 {
   "block.ahsdfz-construction-mod.testificant_block": "测试用方块",
   "block.ahsdfz-construction-mod.normal_block": "普通方块",
-
   "itemgroup.ahsdfz-construction-mod.BuildingBlocks": "建筑方块",
   "itemgroup.ahsdfz-construction-mod.UsefulMiscs": "实用小物件",
-
+  "itemgroup.ahsdfz-construction-mod.FunctionalBlocks": "功能方块",
   "item.ahsdfz-construction-mod.testificant_item": "测试用测试物品",
-  "item.ahsdfz-construction-mod.normal_item": "普通的测试物品"
+  "item.ahsdfz-construction-mod.normal_item": "普通测试物品"
 }
