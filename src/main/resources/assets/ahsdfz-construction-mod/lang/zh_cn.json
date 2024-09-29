@@ -1,4 +1,7 @@
 {
+  "block.ahsdfz-construction-mod.testificant_block": "测试用方块",
+  "block.ahsdfz-construction-mod.normal_block": "普通方块",
+
   "itemgroup.ahsdfz-construction-mod.BuildingBlocks": "建筑方块",
   "itemgroup.ahsdfz-construction-mod.UsefulMiscs": "实用小物件",
 

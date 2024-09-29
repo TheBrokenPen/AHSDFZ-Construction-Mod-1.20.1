@@ -19,6 +19,8 @@ public class ModItemGroup {
                     .icon(() -> new ItemStack(ModItems.TestificantItem)).entries(((displayContext, entries) -> {
                         entries.add(ModItems.TestificantItem);
                         entries.add(ModItems.NormalItem);
+                        entries.add(ModBlocks.TestificantBlock);
+                        entries.add(ModBlocks.NormalBlock);
                     })).build());
 
     //USEFUL MISCS ITEMGROUP

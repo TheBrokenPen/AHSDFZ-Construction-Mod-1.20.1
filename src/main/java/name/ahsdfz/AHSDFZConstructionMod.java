@@ -1,5 +1,6 @@
 package name.ahsdfz;
 
+import name.ahsdfz.registry.ModBlocks;
 import name.ahsdfz.registry.ModItemGroup;
 import name.ahsdfz.registry.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -24,5 +25,6 @@ public class AHSDFZConstructionMod implements ModInitializer {
 		LOGGER.info("Hello Fabric world! Hello The High School Affiliated to Anhui Normal University!");
 		ModItems.registerModItems();
 		ModItemGroup.registerModItemGroup();
+		ModBlocks.registerModBlocks();
 	}
 }
