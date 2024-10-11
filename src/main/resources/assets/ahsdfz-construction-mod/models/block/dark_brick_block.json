@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ahsdfz-construction-mod:block/dark_brick_block"
+  }
+}

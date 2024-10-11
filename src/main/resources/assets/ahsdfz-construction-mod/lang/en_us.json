@@ -2,6 +2,13 @@
   "block.ahsdfz-construction-mod.testificant_block": "Testificant Block",
   "block.ahsdfz-construction-mod.normal_block": "Normal Block",
   "block.ahsdfz-construction-mod.brick_block": "Brick Block",
+  "block.ahsdfz-construction-mod.dark_brick_block": "Dark Brick Block",
+  "block.ahsdfz-construction-mod.powerpipe_class_bearing": "Powerpipe Class Bearing",
+  "block.ahsdfz-construction-mod.powerpipe_class_Corner": "Powerpipe Class Corner",
+  "block.ahsdfz-construction-mod.powerpipe_class_junction": "Powerpipe Class Junction",
+  "block.ahsdfz-construction-mod.powerpipe_class_triphase": "Powerpipe Class Triphase",
+  "block.ahsdfz-construction-mod.powerpipe_class_vertical": "Powerpipe Class Vertical",
+  "block.ahsdfz-construction-mod.powerpipe_class_vertical_junction": "Powerpipe Class Vertical Junction",
 
   "itemgroup.ahsdfz-construction-mod.BuildingBlocks": "Building Blocks",
   "itemgroup.ahsdfz-construction-mod.UsefulMiscs": "Useful Miscs",

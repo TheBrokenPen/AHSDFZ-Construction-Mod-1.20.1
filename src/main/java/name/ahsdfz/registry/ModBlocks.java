@@ -16,20 +16,55 @@ public class ModBlocks {
     //Registered Blocks
     public static final Block TestificantBlock = registerBlock(
             "testificant_block",
-            new Block(
-                    FabricBlockSettings.copyOf(Blocks.BRICKS))
+            new Block(FabricBlockSettings.copyOf(Blocks.BRICKS))
     );
     public static final Block NormalBlock = registerBlock(
             "normal_block",
-            new Block(
-                    FabricBlockSettings.copyOf(Blocks.STONE))
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE))
     );
 
     public static final Block BrickBlock = registerBlock(
             "brick_block",
-            new Block(
-                    FabricBlockSettings.copyOf(Blocks.BRICKS))
+            new Block(FabricBlockSettings.copyOf(Blocks.BRICKS))
     );
+
+    public static final Block DarkBrickBlock = registerBlock(
+            "dark_brick_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.BRICKS))
+    );
+
+
+    //Powerpipe Blocks
+    public static final Block PowerpipeClassBearing = registerBlock(
+            "powerpipe_class_bearing",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK))
+    );
+
+    public static final Block PowerpipeClassCorner = registerBlock(
+            "powerpipe_class_corner",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK))
+    );
+
+    public static final Block PowerpipeClassJunction = registerBlock(
+            "powerpipe_class_junction",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK))
+    );
+
+    public static final Block PowerpipeClassTriphase = registerBlock(
+            "powerpipe_class_triphase",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK))
+    );
+
+    public static final Block PowerpipeClassVertical = registerBlock(
+            "powerpipe_class_vertical",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK))
+    );
+
+    public static final Block PowerpipeClassVerticalJunction = registerBlock(
+            "powerpipe_class_vertical_junction",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK))
+    );
+
 
     //Register Blocks
     public static Block registerBlock(String name, Block block) {
