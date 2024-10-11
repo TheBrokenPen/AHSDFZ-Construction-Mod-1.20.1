@@ -25,6 +25,12 @@ public class ModBlocks {
                     FabricBlockSettings.copyOf(Blocks.STONE))
     );
 
+    public static final Block BrickBlock = registerBlock(
+            "brick_block",
+            new Block(
+                    FabricBlockSettings.copyOf(Blocks.BRICKS))
+    );
+
     //Register Blocks
     public static Block registerBlock(String name, Block block) {
         registerBlockItems(name, block);

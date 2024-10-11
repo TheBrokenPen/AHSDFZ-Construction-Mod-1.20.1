@@ -1,6 +1,7 @@
 {
   "block.ahsdfz-construction-mod.testificant_block": "Testificant Block",
   "block.ahsdfz-construction-mod.normal_block": "Normal Block",
+  "block.ahsdfz-construction-mod.brick_block": "Brick Block",
 
   "itemgroup.ahsdfz-construction-mod.BuildingBlocks": "Building Blocks",
   "itemgroup.ahsdfz-construction-mod.UsefulMiscs": "Useful Miscs",

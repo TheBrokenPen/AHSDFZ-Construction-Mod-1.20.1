@@ -21,6 +21,7 @@ public class ModItemGroup {
                         entries.add(ModItems.NormalItem);
                         entries.add(ModBlocks.TestificantBlock);
                         entries.add(ModBlocks.NormalBlock);
+                        entries.add(ModBlocks.BrickBlock);
                     })).build());
 
     //FUNCTIONAL BLOCKS ITEMGROUP
