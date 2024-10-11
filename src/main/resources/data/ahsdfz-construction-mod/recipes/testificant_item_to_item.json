@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item":"ahsdfz-construction-mod:testificant_item"
+    }
+    ],
+  "result": {
+    "item": "minecraft:diamond_block",
+    "count": 9
+  }
+}
