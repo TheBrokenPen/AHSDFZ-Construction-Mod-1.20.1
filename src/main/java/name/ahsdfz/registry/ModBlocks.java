@@ -5,22 +5,24 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class ModBlocks {
 
     //Registered Blocks
     public static final Block TestificantBlock = registerBlock(
             "testificant_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.BRICKS))
+            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.BRICKS), UniformIntProvider.create(5, 10))
     );
     public static final Block NormalBlock = registerBlock(
             "normal_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.STONE))
+            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.STONE),UniformIntProvider.create(5, 10))
     );
 
     public static final Block BrickBlock = registerBlock(

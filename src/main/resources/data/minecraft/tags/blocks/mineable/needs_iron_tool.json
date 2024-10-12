@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "ahsdfz-construction-mod:powerpipe_class_bearing",
+    "ahsdfz-construction-mod:powerpipe_class_corner",
+    "ahsdfz-construction-mod:powerpipe_class_junction",
+    "ahsdfz-construction-mod:powerpipe_class_triphase",
+    "ahsdfz-construction-mod:powerpipe_class_vertical",
+    "ahsdfz-construction-mod:powerpipe_class_vertical_junction",
+    "ahsdfz-construction-mod:testificant_block"
+  ]
+}
