@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=east": {
+      "model": "ahsdfz-construction-mod:block/powerpipe_class_triphase",
+      "y": 90
+    },
+    "facing=north": {
       "model": "ahsdfz-construction-mod:block/powerpipe_class_triphase"
+    },
+    "facing=south": {
+      "model": "ahsdfz-construction-mod:block/powerpipe_class_triphase",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ahsdfz-construction-mod:block/powerpipe_class_triphase",
+      "y": 270
     }
   }
 }

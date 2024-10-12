@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=east": {
+      "model": "ahsdfz-construction-mod:block/powerpipe_class_junction",
+      "y": 90
+    },
+    "facing=north": {
       "model": "ahsdfz-construction-mod:block/powerpipe_class_junction"
+    },
+    "facing=south": {
+      "model": "ahsdfz-construction-mod:block/powerpipe_class_junction",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ahsdfz-construction-mod:block/powerpipe_class_junction",
+      "y": 270
     }
   }
 }
